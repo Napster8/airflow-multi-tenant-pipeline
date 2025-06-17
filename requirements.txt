@@ -1,0 +1,23 @@
+# apache airflow and its dependencies
+apache-airflow-providers-postgres
+apache-airflow-providers-fab
+flask-appbuilder
+apache-airflow-providers-sqlite
+apache-airflow-providers-postgres
+pendulum
+
+# database dependencies
+psycopg2-binary
+sqlalchemy
+
+
+# For testing purposes
+pytest
+
+# data
+pandas
+numpy
+graphviz
+
+
+python-dotenv

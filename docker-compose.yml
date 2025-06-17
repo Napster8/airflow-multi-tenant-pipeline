@@ -1,0 +1,12 @@
+services:
+  postgres:
+    volumes:
+      - airflow_postgres_data:/var/lib/postgresql/data
+  scheduler:
+    volumes:
+      - airflow_logs:/usr/local/airflow/logs
+      - ./dags:/usr/local/airflow/dags
+
+volumes:
+  airflow_postgres_data:
+  airflow_logs:
