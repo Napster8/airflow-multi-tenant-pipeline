@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a robust data processing pipeline using [Apache Airflow](https://airflow.apache.org/) to ingest, validate, pseudonymize, and store CSV data for multiple tenants. The pipeline ensures Personally Identifiable Information (PII) protection by pseudonymizing sensitive fields before loading them into a SQLite database. This setup is ideal for organizations managing multi-tenant data environments and needing strong data privacy controls.
+This project implements a robust data processing pipeline using [Apache Airflow 3.0 a fundamentally new version of Airflow](https://airflow.apache.org/) to ingest, validate, pseudonymize, and store CSV data for multiple tenants. The pipeline ensures Personally Identifiable Information (PII) protection by pseudonymizing sensitive fields before loading them into a SQLite database. This setup is ideal for organizations managing multi-tenant data environments and needing strong data privacy controls.
 
 ## DAG Pipeline in Graphical View
 
